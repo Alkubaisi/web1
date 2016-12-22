@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body {
+  margin: 0;
+	background-color: beige;
+}
+@font-face {
+   font-family: myFirstFont;
+   src: url(files/Amarillo.otf);
+}
+#main {
+	
+	display: inline;
+}
+
+.head {
+	background-color: chocolate;
+	border: 0px solid black;
+	display: block;
+	height: 150px;
+	padding: 10px;
+
+
+}
+
+.head ul {
+  list-style-type: none;
+margin-top: 5px;
+	margin-right: -10px;
+	float: right;
+	position: sticky;
+	
+}
+
+.head li {
+  color: #999;
+  font-weight: 600;
+	display: inline-block;
+
+	font-family: Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+	background-color: chocolate;
+	padding: 10px;
+}
+.head li a{
+	text-decoration: none;
+	color: #000000;
+	padding: 10px;
+	
+}
+.head li a:hover{
+	text-decoration: none;
+	 background-color: #512525;
+	color: white;
+	padding: 10px;
+}
+	.head img {
+	    width: 124px;
+    height: 100px;
+		display: block;
+		margin-left: 100px;
+		margin-top: 15px;
+}
+
+
+
+.left {
+
+	
+	padding: 10px;
+
+	height: 600px;
+	background-image: url(https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg);
+
+    background-repeat: no-repeat;
+
+    background-position: top; 
+
+	
+
+	
+}
+.left p {
+	font-family:"myFirstFont";
+	font-size:50px;
+	text-align: center;
+	margin-right: 250px;
+	margin-top: 150px;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #000000;
+}
+.left h4 {
+	font-family:Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-size: 20px;
+	text-align: center;
+	color:black;
+	font-style:italic;
+	position:relative;
+	margin-top:-5px;
+font-variant: small-caps;
+	text-shadow: 1px 1px 1px #ffffff;
+	
+}
+.footer {
+	clear: both;
+	height: 200px;
+	background-color: aquamarine;
+	padding: 10px;
+
+	
+}
+.footer img {
+	height: 80px;
+	width:  200px;
+}
+.f1 {
+	display: inline-block;
+	float: left;
+}
+.f2 {
+	display: inline-block;
+	float: right;
+}
